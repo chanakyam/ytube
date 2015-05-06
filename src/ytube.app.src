@@ -1,0 +1,12 @@
+{application, ytube,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { ytube_app, []}},
+  {env, []}
+ ]}.
