@@ -93,7 +93,7 @@
                     <div class="gallery">
                       <div class="videothumb">
                         <a href="/v/{{vid.id}}">
-                          <img width="100%" src=" http://img1.contentapi.ws/{{vid.thumb_image}}" alt="{{vid.title}}"/>
+                          <img width="100%" src=" http://newscdn.lycos.com/world_news/{{vid.thumb_image}}" alt="{{vid.title}}"/>
                           <div class="video-overlay">
                             <span class="uploadedDate">{{vid.upload_date}}</span>
                             <span class="duration">{{vid.duration}}</span>
@@ -124,7 +124,7 @@
                   <div class="row popular-video">
                     <div class="thumb">
                       <a href="/v/{{pvid.id}}">
-                        <img class="resizeme" width="100%" src=" http://img1.contentapi.ws/{{pvid.thumb_image}}" alt="{{pvid.title}}"/>
+                        <img class="resizeme" width="100%" src=" http://newscdn.lycos.com/world_news/{{pvid.thumb_image}}" alt="{{pvid.title}}"/>
                         <div class="big-video-overlay">
                           <span class="uploadedDate">{{pvid.upload_date}}</span>
                           <span class="duration">{{pvid.duration}}</span>
